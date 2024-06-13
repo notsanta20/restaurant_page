@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --gray: #D9D9D9;
+    --green: #041C09;
+    --orange: #D7A217;    
+}
+
+body{
+    background-color: var(--green);
+}
+
+img{
+    width: 500px;
+}
