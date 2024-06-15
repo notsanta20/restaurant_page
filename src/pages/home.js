@@ -9,9 +9,7 @@ export function home(content){
     homePara.classList.add(`home-para`);
 
     content.appendChild(homeContainer);
-    homeContainer.appendChild(homeHeading);
-    homeContainer.appendChild(homeImg);
-    homeContainer.appendChild(homePara);
+    homeContainer.append(homeHeading,homeImg,homePara);
 
     homeHeading.textContent = `LE CAFÉ`;
     homeImg.src = "about.png";

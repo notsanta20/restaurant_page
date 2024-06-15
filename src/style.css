@@ -80,7 +80,72 @@ body{
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
-    padding: 50px 300px;
+}
+
+.menu-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) minmax(400px, 800px);
+}
+
+.menu-section-1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menu-heading,
+.booking-heading{
+    color: var(--orange);
+    font-family: var(--forum);
+    font-size: 5rem;
+}
+
+.menu-img{
+    max-width: 400px;
+}
+
+.menu-section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.menu-item{
+    
+}
+
+.item-h{
+    color: var(--gray);
+    font-family: var(--nunito);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.item-p{
+    color: var(--gray);
+    font-family: var(--nunito);
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--gray);
+}
+
+.booking-container{
+    padding-top: 20px;
+}
+
+.booking-items{
+
+}
+
+.booking-form{
+
+}
+
+.booking-img{
+
 }
 
 .footer{
