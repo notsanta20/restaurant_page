@@ -1,16 +1,20 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-Webpack-Plugin");
 
 module.exports = {
     entry: "./src/index.js",
-    plugins: [new HtmlWebpackPlugin({
-        template: "./src/index.html",
-    })],
-    module:{
+    module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                test: /\.html$/,
+                use: ["html-loader"],
+            },
+            {
+                test: /\.(svg|png|jpg|gif)$/,
+                type: "asset/resource",
+                generator: {
+                    filename: "./img/[name].[ext]",
+                },
+
             },
         ],
     },
