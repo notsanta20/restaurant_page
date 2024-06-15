@@ -7,13 +7,82 @@
 :root{
     --gray: #D9D9D9;
     --green: #041C09;
-    --orange: #D7A217;    
+    --orange: #D7A217;
+    --forum: Forum;
+    --nunito: Nunito;
 }
 
 body{
     background-color: var(--green);
+    padding: 0px 50px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
 }
 
-img{
-    width: 500px;
+.header{
+    display: flex;
+    border-bottom: 2px solid var(--gray);
+}
+
+.nav-bar{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo{
+   width: 50px;
+   margin-right: auto;
+}
+
+.btns{
+    font-family: var(--nunito);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--gray);
+    background-color: var(--green);
+    border: 0px;
+}
+
+.btns:hover{
+    cursor: pointer;
+    color: #b6b6b6;
+}
+
+.content{
+
+}
+
+.home-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 150px 1fr 350px;
+    align-items: center;
+    justify-items: center;
+}
+
+.home-heading{
+    color: var(--orange);
+    font-family: var(--forum);
+    font-size: 5rem;
+}
+
+.home-img{
+
+}
+
+.home-para{
+    color: var(--gray);
+    font-family: var(--nunito);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 300px;
+}
+
+.footer{
+    border-top: 2px solid var(--gray);
 }
