@@ -75,7 +75,8 @@ body{
 }
 
 .home-img{
-
+    width: 100%;
+    height: 500px;
 }
 
 .home-para{
@@ -100,7 +101,8 @@ body{
 }
 
 .menu-heading,
-.booking-heading{
+.booking-heading,
+.about-heading{
     color: var(--orange);
     font-family: var(--forum);
     font-size: 5rem;
@@ -108,6 +110,8 @@ body{
 
 .menu-img{
     max-width: 400px;
+    width: 100%;
+    height: 500px;
 }
 
 .menu-section-2{
@@ -194,7 +198,48 @@ input{
 .booking-img{
     width: 100%;
     height: 500px;
-    background-color: aliceblue;
+}
+
+.about-container{
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-items{
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 400px minmax(300px, 1fr);
+    height: 80%;
+    padding-top: 50px;
+}
+
+.about-text{
+    padding: 100px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text1,
+.about-text3{
+    color: var(--gray);
+    font-family: var(--nunito);
+    font-size: 1.2rem;
+}
+
+.about-text2{
+    color: var(--gray);
+    font-family: var(--forum);
+    font-size: 4rem;
+}
+
+.about-img{
+    padding: 20px;
+    width: 100%;
+    height: 500px;
 }
 
 .footer{

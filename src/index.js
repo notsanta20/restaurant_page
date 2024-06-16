@@ -2,6 +2,7 @@ import "./style.css";
 import {home} from "./pages/home";  
 import {menu} from "./pages/menu";  
 import {booking} from "./pages/booking";  
+import {about} from "./pages/about";  
 
 
 const content = document.querySelector(`.content`);
@@ -24,6 +25,11 @@ menuBtn.addEventListener(`click`, ()=>{
 bookingBtn.addEventListener(`click`, ()=>{
     content.innerHTML  = ``;
     booking(content);
+});
+
+aboutBtn.addEventListener(`click`, ()=>{
+    content.innerHTML  = ``;
+    about(content);
 });
 
 home(content);

@@ -3,7 +3,7 @@ export function booking(content) {
     const bookingHeading = document.createElement(`div`);
     const bookingItems = document.createElement(`div`);
     const bookingForm = document.createElement(`div`);
-    const bookingImg = document.createElement(`div`);
+    const bookingImg = document.createElement(`img`);
 
     bookingContainer.classList.add(`booking-container`);
     bookingHeading .classList.add(`booking-heading`);
@@ -16,7 +16,7 @@ export function booking(content) {
     bookingItems.append(bookingForm, bookingImg);
 
     bookingHeading.textContent = `BOOKING`;
-    bookingImg.src = `../assets/design/about.png`;
+    bookingImg.src = "../assets/design/about.png";
 
     bookingForm.innerHTML = `
         <form action="">

@@ -45,7 +45,7 @@ export function menu(content){
     menuItem4.append(item4H, item4P);
 
     menuHeading.textContent = `MENU`;
-    menuImg.src = "about.png";
+    menuImg.src = require("../assets/design/about.png");
 
     item1H.textContent = `Regular Tea`;
     item1P.textContent = `prepared with fresh milk and fresh tea powder`;

@@ -12,8 +12,7 @@ export function home(content){
     homeContainer.append(homeHeading,homeImg,homePara);
 
     homeHeading.textContent = `LE CAFÉ`;
-    homeImg.src = "about.png";
     homePara.textContent = `welcome to the le café ! located in the heart of the city, this treasure of french gastronomy is rated 4 stars by the famous michelin guide`;
-    
+    homeImg.src = require("../assets/design/about.png");
 };
 
