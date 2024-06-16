@@ -16,7 +16,7 @@ export function booking(content) {
     bookingItems.append(bookingForm, bookingImg);
 
     bookingHeading.textContent = `BOOKING`;
-    bookingImg.src = "../assets/design/about.png";
+    bookingImg.src = require("../assets/booking.jpg");
 
     bookingForm.innerHTML = `
         <form action="">

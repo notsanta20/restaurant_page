@@ -75,8 +75,9 @@ body{
 }
 
 .home-img{
-    width: 100%;
-    height: 500px;
+    width: 70%;
+    max-width: 1200px;
+    height: auto;
 }
 
 .home-para{
@@ -109,9 +110,11 @@ body{
 }
 
 .menu-img{
-    max-width: 400px;
-    width: 100%;
-    height: 500px;
+    margin: auto;
+    align-self: center;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
 }
 
 .menu-section-2{
@@ -119,10 +122,6 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 50px;
-}
-
-.menu-item{
-    
 }
 
 .item-h{
@@ -150,13 +149,19 @@ body{
 .booking-items{
     flex: 1;
     display: grid;
-    grid-template-columns: minmax(500px, 1fr) minmax(700px,1200px) ;
+    grid-template-columns: minmax(500px, 1fr) minmax(300px,700px) ;
+}
+
+.booking-form{
+    justify-self: center;
+    display: flex;
+    align-items: center;
 }
 
 form{
     height: 80%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    grid-template-columns: repeat(2, minmax(50px, 400px));
     justify-items: center;
     align-items: center;
 }
@@ -196,8 +201,12 @@ input{
 }
 
 .booking-img{
-    width: 100%;
-    height: 500px;
+    padding: 20px;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
 }
 
 .about-container{
@@ -237,9 +246,12 @@ input{
 }
 
 .about-img{
-    padding: 20px;
-    width: 100%;
-    height: 500px;
+    padding-bottom: 30px;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
 }
 
 .footer{

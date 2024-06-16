@@ -28,5 +28,6 @@ export function about(content){
     aboutText1.textContent = `Taste Preparation`;
     aboutText2.textContent = `TRADITION & MODERN`;
     aboutText3.textContent = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, quas esse animi officia excepturi aliquid consequatur`;
-    aboutImg2.src = "../assets/design/about.png";
+    aboutImg1.src = require("../assets/about1.jpg");
+    aboutImg2.src = require("../assets/about2.jpg");
 }
