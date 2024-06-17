@@ -256,4 +256,16 @@ input{
 
 .footer{
     border-top: 2px solid var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    color: var(--gray);
+    font-family: var(--nunito);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
 }
